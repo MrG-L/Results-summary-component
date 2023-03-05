@@ -1,8 +1,14 @@
+:root {
+  --font: Hanken Grotesk, sans-serif;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
+/* Mobile first work flow width 375px */
 
 main {
   display: flex;
@@ -10,10 +16,39 @@ main {
   width: 23.438rem;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
 }
 
 .card-1 {
-  background-color: hsl(244, 85%, 56%);
-  border-radius: 0% 0% 20% 20%;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 0% 0% 10px 10px;
   text-align: center;
+}
+
+.center-dial {
+  margin: 0 auto;
+  width: 7.5rem;
+  height: 7.5rem;
+  border-radius: 50% 50%;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(256, 72%, 46%, 0));
+}
+
+h1 {
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  color: #8d8c90;
+  font-family: var(--font);
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 3rem;
+  color: white;
+  font-family: var(--font);
+}
+
+h3 {
+  padding-top: 1.8rem;
+  font-family: var(--font);
 }
