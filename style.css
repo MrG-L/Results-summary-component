@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 23.438rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-1 {
+  background-color: hsl(244, 85%, 56%);
+  border-radius: 0% 0% 20% 20%;
+  text-align: center;
+}
